@@ -1,0 +1,17 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "first my chat app",
+  "main": "app.js",
+  "scripts": {
+		"start": "forever start app.js",
+		"stop": "forever stop app.js"
+  },
+  "author": "Angel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^3.0.4",
+    "socket.io": "^3.0.3"
+  }
+}
